@@ -1,0 +1,50 @@
+#body{
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 100vh;
+    grid-template-areas: "lewo prawo";
+    
+
+
+}
+
+#lewo{
+
+    grid-area: lewo;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 7px;
+
+}
+
+#prawo{
+
+    grid-area: prawo;
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.divy{
+
+    border: 5px solid blue;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#prawodiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
